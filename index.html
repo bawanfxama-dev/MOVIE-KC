@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KC Movies</title>
+<style>
+body {
+  background: #0b0b0b;
+  color: white;
+  font-family: Arial;
+  margin: 0;
+}
+header {
+  background: #181818;
+  padding: 25px;
+  color: red;
+  font-size: 25px;
+}
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 40px;
+}
+.movies {
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  gap: 20px;
+}
+.movie {
+  background: #1b1b1b;
+  padding: 15px;
+  border-radius: 10px;
+}
+.poster {
+  height: 200px;
+  background: #333;
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<header>🎬 KC MOVIES</header>
+
+<section class="hero">
+<h1>Welcome to KC Movies</h1>
+<p>Your favorite movies in one place.</p>
+</section>
+
+<section class="movies">
+<h2>Popular Movies</h2>
+<div class="grid">
+
+<div class="movie">
+<div class="poster"></div>
+<h3>Movie 1</h3>
+</div>
+
+<div class="movie">
+<div class="poster"></div>
+<h3>Movie 2</h3>
+</div>
+
+<div class="movie">
+<div class="poster"></div>
+<h3>Movie 3</h3>
+</div>
+
+</div>
+</section>
+
+</body>
+</html>
